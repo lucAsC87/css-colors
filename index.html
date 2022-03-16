@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colori CSS - Cheatsheet</title>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h2>Tabella Colori CSS</h2>
+    </header>
+    <table>
+        <tbody>
+        <tr>
+        <thead>
+        <th>Tipologia</th>
+        <th>Descrizione</th>
+        <th>Rappresentazione</th>
+        </thead>
+        </tr>   
+        <tr>
+            <td>Parole chiave</td>
+            <td>Colore dichiarato nominalmente</td>
+            <td id="codice">color: black</td>
+        </tr>
+        <tr>
+            <td>RGB</td>
+            <td>Rappresentazione con tre valori che vanno da 0 a 255 indicanti, rispettivamente, la quantità di rosso, verde e blu.</td>
+            <td id="codice">rgb(249, 2, 171)</td>
+        </tr>
+        <tr>
+            <td>HSL</td>
+            <td>Rappresentazione con sintassi a tre caratteri, che indicano colore, saturazione e luminosità. Il primo valore si esprime in una scala che va da 0 a 360, gli altri due con percentuali.</td>
+            <td id="codice">hsl(200, 70%, 50%)</td>
+        </tr>
+        <tr>
+            <td>Hexadecimali</td>
+            <td>Si utilizza un formato a 6 caratteri, dove ogni coppia indica la quantità di rosso, verde e blu. Ogni coppia rappresenta un valore che va da 0 a 255. Nel caso i caratteri delle coppie siano tutti ripetuti, si può utlizzare una forma semplificata a tre caratteri.</td>
+            <td id="codice">color: #ff0000, color: #00f</td>
+        </tr>
+        <tr>
+            <td>Valori alpha</td>
+            <td>Determinano la trasparenza del colore, possono essere impostati con i formati RGB e HSL impostando un valore da 0.0 a 1.0. Per creare un elemento totalmente trasparente si può anche utilizzare l'attributo <span id="codice">transparent</span>.</td>
+            <td id="codice">rgba(0, 255, 0, 0.5), hsla(34, 100%, 50%, 0.1)</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

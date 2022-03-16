@@ -1,0 +1,31 @@
+header {
+    text-align: center;
+    color: darkslategray;
+}
+
+table {
+    width: 75%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    font-family: Calibri, Arial, sans serif;
+}
+
+th {
+    background-color: dimgray;
+}
+
+td {
+    text-align: center;
+}
+
+#codice {
+    font-family: monospace;
+}
